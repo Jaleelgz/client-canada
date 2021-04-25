@@ -9,7 +9,7 @@ class SumOfDigits{
 		try
 		{
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter an integer number:");
+		System.out.print("Enter an integer number:");
 		num=sc.nextInt();
 		}
 		catch(Exception e)
@@ -20,7 +20,7 @@ class SumOfDigits{
 		SumOfDigits obj=new SumOfDigits();
 		int result=obj.sumf(num);
 		System.out.println("Result: "+result);
-		System.out.println("End of Processing");
+		System.out.println("End of Processing...");
 		}
 	int sumf(int num)
 	{
