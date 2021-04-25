@@ -1,9 +1,13 @@
-public class Node{    
-        double data;    
-        MyNode next;    
-            
-        public MyNode(double data) {    
-            this.data = data;    
-            this.next = null;    
-        }    
+public class Node{
+	DNode dn;
+	INode in;
+	Node next;
+        Node getNext()
+        {
+			return next;
+		}
+		Node setNext(){
+			Node nnode=new Node();
+			return nnode;
+		}    
     }   
