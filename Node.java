@@ -1,13 +1,8 @@
+import java.util.LinkedList;
 public class Node{
-	DNode dn;
-	INode in;
-	Node next;
-        Node getNext()
-        {
-			return next;
-		}
-		Node setNext(){
-			Node nnode=new Node();
-			return nnode;
-		}    
-    }   
+	LinkedList<DNode> dn=new LinkedList<>();
+	LinkedList<INode> in=new LinkedList<>();
+	
+	dn.add(a);
+	
+}
